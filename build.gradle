@@ -21,9 +21,8 @@ dependencies {
 	// https://mvnrepository.com/artifact/org.hibernate.javax.persistence/hibernate-jpa-2.0-api
 	//implementation group: 'org.hibernate.javax.persistence', name: 'hibernate-jpa-2.1-api', version: '1.0.1.Final'
 	
-	// https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager
-	//implementation group: 'org.hibernate', name: 'hibernate-entitymanager', version: '4.2.6'
-	
+	// https://mvnrepository.com/artifact/com.google.inject.extensions/guice-servlet
+	implementation group: 'com.google.inject.extensions', name: 'guice-servlet', version: '3.0'
 	
 	// https://mvnrepository.com/artifact/org.postgresql/postgresql
 	implementation group: 'org.postgresql', name: 'postgresql', version: '9.4-1206-jdbc42'

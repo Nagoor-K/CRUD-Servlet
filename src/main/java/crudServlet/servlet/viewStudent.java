@@ -37,7 +37,7 @@ public class viewStudent extends HttpServlet{
 		 out.print("Student City :"+s.getCity());
 		 out.print("<br>");
 		 out.print("</p>");
-		 out.print("<a href='index.html'> Main Menu</a>");
+		 out.print("<a href='index.html'> Main Menu </a>");
 	 }
 	
 
